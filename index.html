@@ -24,7 +24,13 @@
             <li>Learn about new books</li>
           </ol>
         </section>
-
+        <ol>
+          <li><label for="name">Name</label> <input autocomplete="on" id="name" name="name" placeholder="First And Last Name" type="text"></li>
+          <li><label for="email">Email</label> <input autocomplete="on" id="email" name="email" placeholder="abc@def.com" type="email"></li>
+          <li><label>Are You Over 18?</label> <input name="status" type="radio" value="yes">Yes <input name="status" type="radio" value="no">No</li>
+        </ol>
+        <p><input id="submit" onclick="confirm();" type="submit" value="Sign Up"></p>
+      </form>
     </main>
   </body>
   
