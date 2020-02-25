@@ -1,0 +1,20 @@
+@media screen and (min-width: 996px) {
+  body {
+    width: 960px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #ffa6c9;
+  }
+  
+  label {
+    text-align: left;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+  
+  #library {
+    width: 90%;
+    align-self: center;
+  }
+}
