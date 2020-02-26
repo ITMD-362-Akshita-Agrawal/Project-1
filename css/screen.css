@@ -13,10 +13,6 @@
     padding-bottom: 0.3em;
   }
   
-  #library {
-    width: 90%;
-    align-self: center;
-  }
 }
 
 @media screen and (max-width: 360px) {
@@ -51,11 +47,6 @@
   }
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 html {
   font-size: 22px;
   line-height: 26px;
@@ -81,7 +72,7 @@ h2 {
 h3 {
   font-size: 1.518em;
   line-height: 1.618em;
-  text-align: left;
+  text-align: center;
   font-family: "Rubik", 'Roboto', sans-serif;
   text-transform: uppercase;
 }
@@ -92,7 +83,7 @@ section {
 }
 
 ol {
-  text-align: left:
+  text-align: center:
 }
 
 body {
@@ -101,7 +92,7 @@ body {
 
 #library {
   width: 90%;
-  align-self: center;
+  text-align: center;
 }
 
 p {

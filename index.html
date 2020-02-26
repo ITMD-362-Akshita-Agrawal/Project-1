@@ -22,16 +22,22 @@
         <h2>Don't want to miss another library event?</h2>
         <section>
           <h3>Join Our Newsletter Today!</h3>
-          <ol>
-            <li>Stay up to date with library news and events</li>
-            <li>Learn about new books</li>
-          </ol>
+            <p>Stay up to date with library news and events</p>
+            <p>Learn about new books</p>
         </section>
-        <ol>
-          <li><label for="name">Name</label> <input autocomplete="on" id="name" name="name" placeholder="First And Last Name" type="text"></li>
-          <li><label for="email">Email</label> <input autocomplete="on" id="email" name="email" placeholder="abc@def.com" type="email"></li>
-          <li><label>Are You Over 18?</label> <input name="status" type="radio" value="yes">Yes <input name="status" type="radio" value="no">No</li>
-        </ol>
+        <div class="name">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" placeholder="First and Last Name">
+        </div>
+        
+        <div class="email">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="abc@address.com">
+        </div>
+        <div>        
+          <label>Are You Over 18?</label>
+          <input name="status" type="radio" value="yes">Yes <input name="status" type="radio" value="no">No
+        </li>
         <p><input id="submit" onclick="confirm();" type="submit" value="Sign Up"></p>
       </form>
     </main>
