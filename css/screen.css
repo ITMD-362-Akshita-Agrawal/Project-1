@@ -50,3 +50,39 @@
     background-color: #ffa6c9;
   }
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-size: 22px;
+  line-height: 26px;
+  padding: 26px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.618em;
+  text-align: center;
+  font-family: "Alegreya Sans", 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.618em;
+  line-height: 1.618em;
+  text-align: center;
+  font-family: "Be Vietnam", 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.518em;
+  line-height: 1.618em;
+  text-align: left;
+  font-family: "Rubik", 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
