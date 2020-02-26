@@ -86,3 +86,42 @@ h3 {
   text-transform: uppercase;
 }
 
+section {
+  text-align: center;
+  font-family: "Alegreya Sans", 'Open Sans', sans-serif;
+}
+
+ol {
+  text-align: left:
+}
+
+body {
+  background-color: #ffa6c9;
+}
+
+#library {
+  width: 90%;
+  align-self: center;
+}
+
+p {
+  font-family: "Be Vietnam", 'Roboto', sans-serif;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+  line-height: 2em;
+  text-align: center;
+}
+
+label {
+  text-align: left;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-family: "Rubik", 'Roboto', sans-serif;
+}
+
+#submit {
+  font-family: "Alegreya Sans", 'Open Sans', sans-serif;
+  font-size: 1.18em;
+}
