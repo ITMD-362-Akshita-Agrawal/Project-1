@@ -18,3 +18,35 @@
     align-self: center;
   }
 }
+
+@media screen and (max-width: 360px) {
+  label{
+    display: inline-block;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+  
+  #submit {
+    text-align: center;
+  }
+  
+  p {
+    width: 100%;
+    text-align: center;
+  }
+  
+  input[type="email"] {
+    width: 60%;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+  }
+  
+  input[type="radio"] {
+    width: 10%;
+  }
+  body {
+    background-color: #ffa6c9;
+  }
+}
